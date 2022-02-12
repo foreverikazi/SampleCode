@@ -1,11 +1,11 @@
-#include "InventoryItem.h"
+#include "Widget/InventoryItem.h"
+#include "Widget/InventoryList.h"
+#include "Widget/EquipmentSlot.h"
 #include "RPGPlayerControllerBase.h"
 #include "Components/TextBlock.h"
 #include "Components/Border.h"
 #include "Components/Button.h"
 #include "Components/Image.h"
-#include "InventoryList.h"
-#include "EquipmentSlot.h"
 
 void UInventoryItem::NativeConstruct()
 {

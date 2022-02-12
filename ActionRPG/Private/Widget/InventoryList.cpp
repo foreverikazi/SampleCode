@@ -1,13 +1,13 @@
-#include "InventoryList.h"
-#include "InventoryItem.h"
-#include "PurchaseItem.h"
+#include "Widget/InventoryList.h"
+#include "Widget/InventoryItem.h"
+#include "Widget/PurchaseItem.h"
+#include "Widget/EquipmentSlot.h"
+#include "Widget/PurchaseConfirm.h"
 #include "Items/RPGTokenItem.h"
 #include "RPGGameInstanceBase.h"
 #include "Components/HorizontalBox.h"
 #include "RPGPlayerControllerBase.h"
 #include "Kismet/KismetSystemLibrary.h"
-#include "EquipmentSlot.h"
-#include "PurchaseConfirm.h"
 #include "Components/NamedSlot.h"
 
 void UInventoryList::NativeConstruct()

@@ -1,4 +1,4 @@
-#include "EquipmentSlot.h"
+#include "Widget/EquipmentSlot.h"
 #include "RPGPlayerControllerBase.h"
 #include "RPGGameInstanceBase.h"
 #include "Components/TextBlock.h"

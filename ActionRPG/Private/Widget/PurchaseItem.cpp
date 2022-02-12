@@ -1,5 +1,5 @@
-#include "PurchaseItem.h"
-#include "PurchaseConfirm.h"
+#include "Widget/PurchaseItem.h"
+#include "Widget/PurchaseConfirm.h"
 #include "Components/TextBlock.h"
 #include "Components/Button.h"
 #include "Components/Image.h"

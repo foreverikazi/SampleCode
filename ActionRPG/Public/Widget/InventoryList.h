@@ -27,11 +27,6 @@ private:
 	void AddStoreItemsToList();
 
 public :
-	//
-	UPROPERTY(EditAnywhere, Category = "Config")
-		TSubclassOf<UUserWidget> PurchaseConfirmWidgetClass;
-	//
-
 	UPROPERTY(BlueprintReadWrite, Transient, meta = (BindWidgetAnim))
 	UWidgetAnimation* SwipeInAnimation;
 
@@ -50,6 +45,5 @@ private:
 
 private:
 	FPrimaryAssetType ItemType;
-
 	TFunction<void(URPGItem*)> SlotBtnClickCallback;
 };

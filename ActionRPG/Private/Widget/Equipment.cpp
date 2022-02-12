@@ -1,8 +1,8 @@
-#include "Equipment.h"
+#include "Widget/Equipment.h"
+#include "Widget/EquipmentSlot.h"
+#include "Widget/InventoryList.h"
+#include "Widget/ButtonText.h"
 #include "RPGPlayerControllerBase.h"
-#include "EquipmentSlot.h"
-#include "InventoryList.h"
-#include "ButtonText.h"
 
 void UEquipment::NativeConstruct()
 {

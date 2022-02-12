@@ -26,6 +26,13 @@ private:
 	UFUNCTION()
 	void ButtonReleased();
 
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Config")
+	FText ButtonText;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Config")
+	FLinearColor BGColor;
+
 private:
 	UPROPERTY(meta = (BindWidget))
 	UTextBlock* ButtonTextLabel;
@@ -34,11 +41,4 @@ private:
 	UButton* Button;
 
 	FOnButtonClick OnButtonClickDelegate;
-
-public :
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Config")
-	FText ButtonText;
-
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Config")
-	FLinearColor BGColor;
 };

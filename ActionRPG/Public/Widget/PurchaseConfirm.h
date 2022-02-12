@@ -70,11 +70,8 @@ private :
 	UPROPERTY(Transient, meta = (BindWidgetAnim))
 	UWidgetAnimation* FadeAnimation;
 
-	int32 Quantity;
-
-public:
-	UPROPERTY(BlueprintReadWrite)
+private:
 	TWeakObjectPtr<URPGItem> RPGItem;
-
 	TFunction<void(URPGItem*)> SlotBtnClickCallback;
+	int32 Quantity;
 };
